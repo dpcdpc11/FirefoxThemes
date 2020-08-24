@@ -94,7 +94,7 @@ tab[selected="true"] .tab-background {
 /*================== BOOKMARKS TOOLBAR ==================*/
 #PersonalToolbar {
 	background: rgba(var(--dark-color), 1) !important;
-	color: rgba(var(--main-bgcolor), 1) !important;
+	color: rgba(var(--secondary-accent-color), 1) !important;
 	padding-bottom: 6px !important;
 	padding-top: 1px !important;
 }
@@ -104,13 +104,13 @@ toolbarbutton.bookmark-item {
 	border-radius:4px !important;
 }
 toolbarbutton.bookmark-item .toolbarbutton-icon {
-	fill: rgba(var(--main-bgcolor), 1) !important;
+	fill: rgba(var(--secondary-accent-color), 1) !important;
 }
 #PlacesToolbar toolbarseparator {
 	-moz-appearance: none !important;
 	width: 1px;
 	margin: 0 8px !important;
-	background-color: rgba(var(--main-bgcolor), 1) !important;
+	background-color: rgba(var(--secondary-accent-color), 0.5) !important;
 }
 
 
