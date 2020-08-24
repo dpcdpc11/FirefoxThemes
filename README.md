@@ -1,2 +1,2 @@
 # Minimal Firefox Themes
-To match my [Minimal Windows Themes](https://gumroad.com/dpcdpc11).
+So you can properly enjoy my [Custom Windows Themes](https://gumroad.com/dpcdpc11).
