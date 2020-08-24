@@ -1,4 +1,4 @@
-#Simplify Darkish for Firefox
+# Simplify Darkish for Firefox
 
 Author: dpcdpc11.deviantart.com
 Use it with my Simplify 10 Darkish - Windows 10 Theme: https://gumroad.com/dpcdpc11
