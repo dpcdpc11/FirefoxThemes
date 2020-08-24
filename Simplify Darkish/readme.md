@@ -1,5 +1,7 @@
 # Simplify Darkish for Firefox
 
+![Header](simplify_darkish_for_firefox_preview.png "Simplify Darkish for Firefox")
+
 **DESCRIPTION:** a minimal Firefox Theme for those who would like to properly enjoy my [Simplify 10 Darkish - Windows 10 Themes](https://gumroad.com/l/waRFT)
 
 **WALLPAPER USED:** [Colorful Ghosts](https://gumroad.com/l/UIhKk)
