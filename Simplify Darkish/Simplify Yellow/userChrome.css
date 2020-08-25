@@ -180,6 +180,7 @@ toolbar#nav-bar toolbarbutton .toolbarbutton-icon,
 toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 	transition: all 0.3s ease !important;
 	fill: rgba(var(--secondary-accent-color), 1) !important;
+	margin-top: 4px !important; /*Fixes the funky Reload/Stop button*/
 }
 #urlbar > #urlbar-background {
 	border-radius: 4px !important;
@@ -204,6 +205,17 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 
 .urlbar-input-box {
     color: rgba(var(--third-accent-color), 1) !important;
+}
+
+
+/*================== SEARCH BAR ==================*/
+searchbar#searchbar {
+	margin-top: 4px !important;
+	border-radius: 4px !important;
+	border: 0 !important;
+	fill: rgba(var(--secondary-accent-color), 1) !important;
+	background-color: rgba(var(--accent-color), 1) !important;
+	color: rgba(var(--third-accent-color), 1) !important;
 }
 
 
