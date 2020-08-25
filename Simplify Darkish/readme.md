@@ -14,3 +14,7 @@
 - now copy the included userChrome.css and userContent.css files to that "chrome" folder.
 - make sure you use the Default Firefox theme.
 - restart Firefox and enjoy!
+
+# Credits
+
+Thanks to [M1ch431](https://github.com/M1ch431) for his [FirefoxW10ContextMenus](https://github.com/M1ch431/FirefoxW10ContextMenus) that made it possible to style the context menu.
