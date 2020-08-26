@@ -220,6 +220,7 @@ searchbar#searchbar {
 	fill: rgba(var(--secondary-accent-color), 1) !important;
 	background-color: rgba(var(--accent-color), 1) !important;
 	color: rgba(var(--third-accent-color), 1) !important;
+	box-shadow: none !important;
 }
 
 
