@@ -33,7 +33,7 @@ body[lwt-sidebar-brighttext] {
 }
 
 /*================== SEARCH BAR ==================*/
-.search-wrapper input {
+#root .search-wrapper input {
 	transition: all 0.3s ease !important;
     background: rgba(var(--accent-color), 0.2) var(--newtab-search-icon) 12px center no-repeat !important;
 	background-size: 20px !important;
@@ -41,18 +41,18 @@ body[lwt-sidebar-brighttext] {
 	border-color: rgba(var(--accent-color), 0.3) !important;
 	box-shadow: none !important;
 }
-.search-wrapper .search-inner-wrapper:hover input,
-.search-wrapper .search-inner-wrapper:active input,
-.search-wrapper input:focus {
+#root .search-wrapper .search-inner-wrapper:hover input,
+#root .search-wrapper .search-inner-wrapper:active input,
+#root .search-wrapper input:focus {
 	border-color: rgba(var(--accent-color), 0.6) !important;
 }
 
-.search-wrapper .search-button,
-.search-wrapper .search-button {
+#root .search-wrapper .search-button,
+#root .search-wrapper .search-button {
 	transition: all 0.3s ease !important;
 }
-.search-wrapper .search-button:focus,
-.search-wrapper .search-button:hover {
+#root .search-wrapper .search-button:focus,
+#root .search-wrapper .search-button:hover {
     background-color: rgba(var(--accent-color), 1) !important;
 }
 
