@@ -1,5 +1,23 @@
-/*================ IMPORT USERCHROME.CSS ================*/
-@import "userChrome.css";
+/*================ GLOBAL COLORS ================*/
+:root {
+	--accent-color: 54, 54, 54;
+	--secondary-accent-color: 140, 140, 140;
+	--third-accent-color: 190, 190, 190;
+	--light-color: 255, 255, 255;
+	--dark-color: 36, 36, 36;
+	--caption-min-color: 36, 209, 49;
+	--caption-max-color: 252, 185, 15;
+	--caption-close-color: 250, 55, 55;
+}
+
+/*================ DARK THEME ================*/
+:root:-moz-lwtheme-brighttext,
+.sidebar-panel[lwt-sidebar-brighttext],
+body[lwt-sidebar-brighttext] {
+	--main-bgcolor: var(--dark-color);
+	--transparent-bgcolor: var(--accent-color);
+}
+
 
 /*================== NEW TAB BG COLOR ==================*/
 @media (prefers-color-scheme: dark) {
