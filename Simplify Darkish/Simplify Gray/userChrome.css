@@ -15,15 +15,8 @@ ENJOY!
 	--caption-close-color: 126, 126, 126;
 }
 
-/*================ LIGHT THEME ================*/
-:root {
-	--main-bgcolor: var(--light-color);
-	--transparent-bgcolor: var(--dark-color);
-}
-
-/*================ DARK THEME ================*/
+/*================ DARK MODE ================*/
 :root:-moz-lwtheme-brighttext,
-
 .sidebar-panel[lwt-sidebar-brighttext],
 body[lwt-sidebar-brighttext] {
 	--main-bgcolor: var(--dark-color);
