@@ -1,0 +1,334 @@
+/*================== Simplify XP - Firefox Theme ==================
+
+Author: dpcdpc11.gumroad.com
+
+ENJOY!
+*/
+
+#navigator-toolbox {
+	border: 0 !important;
+}
+
+#tabbrowser-arrowscrollbox {
+	padding-left: 2px !important;
+}
+html[sizemode="maximized"] #tabbrowser-arrowscrollbox {
+	margin-top: -4px !important;
+	padding-left: 0 !important;
+}
+
+.tabbrowser-tab {
+	padding: 0px !important;
+}
+
+.tab-background {
+    /* border-radius: 3px 3px 0 0 !important; */
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+	border: 0 !important;
+}
+.titlebar-buttonbox {
+	padding: 6px !important;
+	margin-right: 3px !important;
+}
+
+.tab-line {
+    height: 0px !important;
+}
+.tabbrowser-tab::after {
+	border: 0 !important;
+}
+
+
+#nav-bar {
+    box-shadow: none !important;
+	padding: 0  !important;
+}
+
+#urlbar-background {
+	border: 0 !important;
+	box-shadow: none !important;
+	border-radius: 3px !important;
+}
+
+.findbar-button, toolbarbutton.bookmark-item:not(.subviewbutton), toolbar .toolbarbutton-1 > .toolbarbutton-text, toolbar .toolbarbutton-1 > .toolbarbutton-badge-stack {
+    border-radius: 3px !important;
+}
+
+
+#tabs-newtab-button,
+.titlebar-button > .toolbarbutton-icon,
+.titlebar-button,
+toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+.tab-close-button,
+.tabbrowser-tab > .tab-stack > .tab-background:not([selected="true"]),
+toolbar#nav-bar toolbarbutton .toolbarbutton-icon,
+toolbar#nav-bar toolbarbutton #fxa-avatar-image {
+	transition: all 0.3s ease !important;
+}
+
+.titlebar-min {
+    list-style-image: url(chrome://browser/skin/window-controls/minimize.svg) !important;
+}
+.titlebar-max {
+    list-style-image: url(chrome://browser/skin/window-controls/maximize.svg) !important;
+}
+.titlebar-restore {
+    list-style-image: url(chrome://browser/skin/window-controls/restore.svg) !important;
+}
+.titlebar-close {
+    list-style-image: url(chrome://browser/skin/window-controls/close.svg) !important;
+}
+
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active),
+.tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up),
+.tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down),
+.findbar-button:not(:-moz-any([checked="true"], [disabled="true"])),
+toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-text,
+toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack {
+	transition: all 0.3s ease !important;
+}
+
+.titlebar-button {
+	border-radius: 3px !important;
+}
+
+.tab-close-button {
+	border-radius: 3px !important;
+}
+.tab-close-button.close-icon:hover {
+	background-color: #1358DD !important;
+	color: #FFFFFF !important;
+}
+
+.urlbarView-url {
+    color: #1358DD !important;
+}
+
+#titlebar #TabsToolbar {
+	padding-left: 3px !important;
+}
+
+html[sizemode="maximized"] #titlebar #TabsToolbar {
+	padding-left: 0px !important;
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+	/* border: 0 !important; */
+	display: none;
+}
+
+/* Show full height tab separators on selected tabs. */
+#tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab] > #tabbrowser-arrowscrollbox > .tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+	display:none !important;
+}
+
+
+/*========================================================= Light Mode style =========================================================*/
+#TabsToolbar > .titlebar-buttonbox-container {
+    background: #1358DD !important;
+}
+
+.titlebar-button > .toolbarbutton-icon {
+    stroke: #FFFFFF !important;
+	width: 10px !important;
+	height: 10px !important;
+}
+.titlebar-button {
+    background-color: #1358DD !important;
+	border: 1px solid #FFFFFF66 !important;
+	padding: 4px 4px !important;
+	margin-left: 26px !important;
+}
+.titlebar-button:hover {
+	border-color: #FFFFFF !important;
+}
+/* .titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
+	stroke: #FFFFFF !important;
+} */
+
+.titlebar-button.titlebar-close {
+	background-color: #EC6136 !important;
+	border-color: #FFFFFF !important;
+}
+.titlebar-button.titlebar-close:hover {
+	background-color: #1358DD !important;
+}
+
+#nav-bar {
+	background: #FFFFFF !important;
+}
+
+#urlbar-background {
+	background: #FFFFFF !important;
+}
+
+.tab-background[multiselected="true"], .tab-background[selected="true"] {
+	background: #FFFFFF !important;
+	border-top: 2px solid #F9A43B !important;
+}
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+    background-color: #FFFFFF33 !important;
+}
+.tabbrowser-tab:not([visuallyselected="true"]) {
+    color: #FFFFFF !important;
+}
+
+#tabs-newtab-button {
+    fill: #FFFFFF !important;
+}
+#tabs-newtab-button:hover {
+    fill: #F9A43B !important;
+}
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+	background-color: #1358DD !important;
+}
+
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, .tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover, .tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down):hover, .findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, toolbarbutton.bookmark-item:not(.subviewbutton):hover:not([disabled="true"]):not([open]), toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
+	background-color: #FCF4E4 !important;
+}
+
+.tab-close-button.close-icon {
+	color: #FFFFFF !important;
+}
+tab[selected="true"] .tab-content .tab-close-button.close-icon {
+	color: #1358DD !important;
+}
+tab[selected="true"] .tab-content .tab-close-button.close-icon:hover {
+	color: #FFFFFF !important;
+}
+
+#PersonalToolbar {
+    background-color: #FFFFFF !important;
+}
+
+/*================== SEARCH BAR ==================*/
+searchbar#searchbar {
+	border: 0 !important;
+	background-color: #FFFFFF !important;
+	box-shadow: none !important;
+}
+
+
+/*========================================================= Dark Mode style =========================================================*/
+
+@media (prefers-color-scheme: dark) {
+
+#TabsToolbar > .titlebar-buttonbox-container {
+    background: #1F3665 !important;
+}
+	
+#titlebar #TabsToolbar {
+	background: #1F3665 !important;
+}
+
+.titlebar-button {
+    background: #1F3665 !important;
+}
+
+.titlebar-button > .toolbarbutton-icon {
+    stroke: #FFFFFF !important;
+}
+.titlebar-button:hover {
+    background-color: #1F3665 !important;
+}
+.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
+	stroke: #FFFFFF !important;
+}
+.titlebar-button.titlebar-close:hover {
+	background-color: #1F3665 !important;
+}
+
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforeselected-visible]::after, #tabbrowser-tabs[movingtab] > .tabbrowser-tab[visuallyselected]::before, .tabbrowser-tab[visuallyselected]::after {
+    opacity: 0 !important;
+}
+
+.tabbrowser-tab:not([visuallyselected="true"]), .tabbrowser-tab:-moz-lwtheme {
+    color: #A7B5C9 !important;
+}
+
+.tabbrowser-tab::after, .tabbrowser-tab::before {
+    border-left: 0 !important;
+    opacity: 0 !important;
+}
+
+#nav-bar {
+	background: #374973 !important;
+}
+
+#urlbar-background {
+	background: #374973 !important;
+}
+.urlbarView-url {
+    color: #A7B5C9 !important;
+}
+
+.tab-background[multiselected="true"], .tab-background[selected="true"] {
+	background: #374973 !important;
+	border-top: 2px solid #EE803E !important;
+}
+
+#tabs-newtab-button {
+    fill: #A7B5C9 !important;
+}
+#tabs-newtab-button:hover {
+    fill: #FFFFFF !important;
+}
+
+toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+	background-color: #1F3665 !important;
+}
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+	background-color: #1F3665 !important;
+}
+
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, .tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover, .tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down):hover, .findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, toolbarbutton.bookmark-item:not(.subviewbutton):hover:not([disabled="true"]):not([open]), toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
+	background-color: #54566B !important;
+}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+    background-color: #37497399 !important;
+}
+.tabbrowser-tab:hover > .tab-stack > .tab-background > .tab-line:not([selected="true"]) {
+    opacity: 0 !important;
+}
+tab[selected="true"] .tab-content {
+	color: #FFFFFF !important;
+}
+
+#PersonalToolbar {
+    background-color: #374973 !important;
+}
+
+
+.tab-close-button.close-icon {
+	color: #A7B5C9 !important;
+}
+tab[selected="true"] .tab-content .tab-close-button.close-icon {
+	color: #FFFFFF !important;
+}
+.tab-close-button.close-icon:hover {
+	background-color: #1F3665 !important;
+	color: #FFFFFF !important;
+	fill-opacity: 0 !important;
+}
+
+
+/*================== SEARCH BAR ==================*/
+searchbar#searchbar {
+	border-radius: 3px !important;
+	border: 0 !important;
+	background-color: #374973 !important;
+	box-shadow: none !important;
+}
+
+/*================== SIDEBAR ==================*/
+#sidebar-box,
+.sidebar-panel[lwt-sidebar-brighttext] {
+	background-color: #374973 !important;
+}
+}
