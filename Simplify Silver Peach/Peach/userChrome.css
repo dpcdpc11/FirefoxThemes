@@ -107,6 +107,7 @@ toolbarbutton.bookmark-item .toolbarbutton-icon {
 	width: 1px;
 	margin: 0 8px !important;
 	background-color: rgba(var(--main-bgcolor), 1) !important;
+	padding-inline: 0px !important;
 }
 
 
