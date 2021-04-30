@@ -1,0 +1,341 @@
+/*================== Simplify Mint - Firefox Theme ==================
+
+Author: dpcdpc11.gumroad.com
+
+ENJOY!
+*/
+
+#navigator-toolbox {
+	border: 0 !important;
+}
+
+#tabbrowser-arrowscrollbox {
+	padding-left: 2px !important;
+}
+html[sizemode="maximized"] #tabbrowser-arrowscrollbox {
+	margin-top: -4px !important;
+	padding-left: 0 !important;
+}
+
+.tabbrowser-tab {
+	padding: 0px !important;
+}
+
+.tab-background {
+    /* border-radius: 3px 3px 0 0 !important; */
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+	border: 0 !important;
+}
+.titlebar-buttonbox {
+	padding: 6px !important;
+	margin-right: 3px !important;
+}
+
+.tab-line {
+    height: 0px !important;
+}
+.tabbrowser-tab::after {
+	border: 0 !important;
+}
+
+
+#nav-bar {
+    box-shadow: none !important;
+	padding: 0  !important;
+}
+
+#urlbar-background {
+	border: 0 !important;
+	box-shadow: none !important;
+	border-radius: 3px !important;
+}
+
+.findbar-button, toolbarbutton.bookmark-item:not(.subviewbutton), toolbar .toolbarbutton-1 > .toolbarbutton-text, toolbar .toolbarbutton-1 > .toolbarbutton-badge-stack {
+    border-radius: 5px !important;
+}
+
+
+#tabs-newtab-button,
+.titlebar-button > .toolbarbutton-icon,
+.titlebar-button,
+toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+.tab-close-button,
+.tabbrowser-tab > .tab-stack > .tab-background:not([selected="true"]),
+toolbar#nav-bar toolbarbutton .toolbarbutton-icon,
+toolbar#nav-bar toolbarbutton #fxa-avatar-image {
+	transition: all 0.3s ease !important;
+}
+
+/* .titlebar-min {
+    list-style-image: url(chrome://browser/skin/window-controls/minimize.svg) !important;
+}
+.titlebar-max {
+    list-style-image: url(chrome://browser/skin/window-controls/maximize.svg) !important;
+}
+.titlebar-restore {
+    list-style-image: url(chrome://browser/skin/window-controls/restore.svg) !important;
+}
+.titlebar-close {
+    list-style-image: url(chrome://browser/skin/window-controls/close.svg) !important;
+} */
+
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active),
+.tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up),
+.tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down),
+.findbar-button:not(:-moz-any([checked="true"], [disabled="true"])),
+toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-text,
+toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack {
+	transition: all 0.3s ease !important;
+}
+
+.titlebar-button {
+	border-radius: 5px !important;
+}
+
+.tab-close-button {
+	border-radius: 5px !important;
+}
+
+.tab-close-button.close-icon:hover {
+	background-color: #76626E !important;
+	color: #EEF1F6 !important;
+}
+
+.urlbarView-url {
+    color: #65BA9F !important;
+}
+
+#titlebar #TabsToolbar {
+	padding-left: 3px !important;
+}
+
+html[sizemode="maximized"] #titlebar #TabsToolbar {
+	padding-left: 0px !important;
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+	/* border: 0 !important; */
+	display: none;
+}
+
+/* Show full height tab separators on selected tabs. */
+#tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab] > #tabbrowser-arrowscrollbox > .tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+	display:none !important;
+}
+
+
+/*========================================================= Light Mode style =========================================================*/
+#TabsToolbar > .titlebar-buttonbox-container {
+    background: #AFE9D6 !important;
+}
+
+.titlebar-button > .toolbarbutton-icon {
+	width: 12px !important;
+	height: 12px !important;
+}
+.titlebar-button {
+    background-color: #AFE9D6 !important;
+	padding: 4px 4px !important;
+	margin-left: 26px !important;
+}
+.titlebar-button:hover {
+}
+
+.titlebar-button > .toolbarbutton-icon {
+    stroke: #76626E !important;
+}
+.titlebar-button:hover {
+    background-color: #EEF1F6 !important;
+}
+.titlebar-button.titlebar-close {
+	background-color: #76626E !important;
+}
+.titlebar-button.titlebar-close:hover {
+	background-color: #76626E !important;
+}
+.titlebar-button.titlebar-close > .toolbarbutton-icon {
+	stroke: #AFE9D6 !important;
+}
+.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
+	stroke: #EEF1F6 !important;
+}
+
+#nav-bar {
+	background: #EEF1F6 !important;
+}
+
+#urlbar-background {
+	background: #EEF1F6 !important;
+}
+
+.tab-background[multiselected="true"], .tab-background[selected="true"] {
+	background: #EEF1F6 !important;
+	border-top: 2px solid #F2A7A1 !important;
+}
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+    background-color: #FAD4CD !important;
+}
+.tabbrowser-tab:not([visuallyselected="true"]) {
+    color: #76626E !important;
+}
+
+#tabs-newtab-button {
+    fill: #76626E !important;
+}
+#tabs-newtab-button:hover {
+    fill: #F2A7A1 !important;
+}
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+	background-color: #AFE9D6 !important;
+}
+
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, .tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover, .tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down):hover, .findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, toolbarbutton.bookmark-item:not(.subviewbutton):hover:not([disabled="true"]):not([open]), toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
+	background-color: #FFC8BB77 !important;
+	border-radius: 5px !important;
+}
+
+.tab-close-button.close-icon {
+	color: #76626E !important;
+}
+tab[selected="true"] .tab-content .tab-close-button.close-icon {
+	color: #F2A7A1 !important;
+}
+tab[selected="true"] .tab-content .tab-close-button.close-icon:hover {
+	color: #EEF1F6 !important;
+}
+
+#PersonalToolbar {
+    background-color: #EEF1F6 !important;
+}
+
+/*================== SEARCH BAR ==================*/
+searchbar#searchbar {
+	border: 0 !important;
+	background-color: #EEF1F6 !important;
+	box-shadow: none !important;
+}
+
+
+/*========================================================= Dark Mode style =========================================================*/
+
+@media (prefers-color-scheme: dark) {
+
+#TabsToolbar > .titlebar-buttonbox-container {
+    background: #AFE9D6 !important;
+}
+	
+#titlebar #TabsToolbar {
+	background: #AFE9D6 !important;
+}
+
+.titlebar-button {
+    background: #AFE9D6 !important;
+}
+/*
+.titlebar-button > .toolbarbutton-icon {
+    stroke: #76626E !important;
+}
+ .titlebar-button:hover {
+    background-color: #AFE9D6 !important;
+}
+.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
+	stroke: #EEF1F6 !important;
+}
+.titlebar-button.titlebar-close:hover {
+	background-color: #AFE9D6 !important;
+} */
+
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforeselected-visible]::after, #tabbrowser-tabs[movingtab] > .tabbrowser-tab[visuallyselected]::before, .tabbrowser-tab[visuallyselected]::after {
+    opacity: 0 !important;
+}
+
+/* .tabbrowser-tab:not([visuallyselected="true"]), .tabbrowser-tab:-moz-lwtheme {
+    color: #A7B5C9 !important;
+} */
+
+.tabbrowser-tab::after, .tabbrowser-tab::before {
+    border-left: 0 !important;
+    opacity: 0 !important;
+}
+
+#nav-bar {
+	background: #76626E !important;
+}
+
+#urlbar-background {
+	background: #76626E !important;
+}
+.urlbarView-url {
+    color: #A7B5C9 !important;
+}
+
+.tab-background[multiselected="true"], .tab-background[selected="true"] {
+	background: #76626E !important;
+}
+
+/* #tabs-newtab-button {
+    fill: #A7B5C9 !important;
+}
+#tabs-newtab-button:hover {
+    fill: #EEF1F6 !important;
+} 
+
+toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+	background-color: #1F3665 !important;
+}
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+	background-color: #1F3665 !important;
+} */
+
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, .tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover, .tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down):hover, .findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, toolbarbutton.bookmark-item:not(.subviewbutton):hover:not([disabled="true"]):not([open]), toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
+	background-color: #FFC8BB55 !important;
+	border-radius: 5px !important;
+}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+    background-color: #FAD4CD !important;
+}
+.tabbrowser-tab:hover > .tab-stack > .tab-background > .tab-line:not([selected="true"]) {
+    opacity: 0 !important;
+}
+tab[selected="true"] .tab-content {
+	color: #EEF1F6 !important;
+}
+
+#PersonalToolbar {
+    background-color: #76626E !important;
+}
+
+
+/* .tab-close-button.close-icon {
+	color: #A7B5C9 !important;
+}
+tab[selected="true"] .tab-content .tab-close-button.close-icon {
+	color: #EEF1F6 !important;
+}
+.tab-close-button.close-icon:hover {
+	background-color: #1F3665 !important;
+	color: #EEF1F6 !important;
+	fill-opacity: 0 !important;
+} */
+
+
+/*================== SEARCH BAR ==================*/
+searchbar#searchbar {
+	border-radius: 3px !important;
+	border: 0 !important;
+	background-color: #76626E !important;
+	box-shadow: none !important;
+}
+
+/*================== SIDEBAR ==================*/
+#sidebar-box,
+.sidebar-panel[lwt-sidebar-brighttext] {
+	background-color: #76626E !important;
+}
+}
