@@ -184,13 +184,25 @@ html[sizemode="maximized"] #titlebar #TabsToolbar {
     color: #76626E !important;
 }
 
-#tabs-newtab-button {
+#tabs-newtab-button,
+#alltabs-button,
+#new-tab-button,
+#scrollbutton-up,
+#scrollbutton-down {
     fill: #76626E !important;
 }
-#tabs-newtab-button:hover {
+#tabs-newtab-button:hover,
+#alltabs-button:hover,
+#new-tab-button:hover,
+#scrollbutton-up:hover,
+#scrollbutton-down:hover {
     fill: #F2A7A1 !important;
 }
-toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#alltabs-button:hover > .toolbarbutton-badge-stack,
+#new-tab-button:hover > .toolbarbutton-icon,
+#scrollbutton-up:hover,
+#scrollbutton-down:hover {
 	background-color: #AFE9D6 !important;
 }
 
