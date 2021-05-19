@@ -184,13 +184,25 @@ html[sizemode="maximized"] #titlebar #TabsToolbar {
     color: #76626E !important;
 }
 
-#tabs-newtab-button {
+#tabs-newtab-button,
+#alltabs-button,
+#new-tab-button,
+#scrollbutton-up,
+#scrollbutton-down {
     fill: #76626E !important;
 }
-#tabs-newtab-button:hover {
+#tabs-newtab-button:hover,
+#alltabs-button:hover,
+#new-tab-button:hover,
+#scrollbutton-up:hover,
+#scrollbutton-down:hover {
     fill: #F2A7A1 !important;
 }
-toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#alltabs-button:hover > .toolbarbutton-badge-stack,
+#new-tab-button:hover > .toolbarbutton-icon,
+#scrollbutton-up:hover,
+#scrollbutton-down:hover {
 	background-color: #EEF1F6 !important;
 }
 
@@ -288,16 +300,29 @@ searchbar#searchbar {
 	background: #5A4B54 !important;
 }
 
-#tabs-newtab-button {
+
+#tabs-newtab-button,
+#alltabs-button,
+#new-tab-button,
+#scrollbutton-up,
+#scrollbutton-down {
     fill: #AFE9D6 !important;
 }
-#tabs-newtab-button:hover {
+#tabs-newtab-button:hover,
+#alltabs-button:hover,
+#new-tab-button:hover,
+#scrollbutton-up:hover,
+#scrollbutton-down:hover {
     fill: #FFC8BB !important;
-} 
-
-toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon {
+}
+toolbar #tabs-newtab-button:hover:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#alltabs-button:hover > .toolbarbutton-badge-stack,
+#new-tab-button:hover > .toolbarbutton-icon,
+#scrollbutton-up:hover,
+#scrollbutton-down:hover {
 	background-color: #76626E !important;
 }
+
 
 #PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, .tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover, .tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down):hover, .findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, toolbarbutton.bookmark-item:not(.subviewbutton):hover:not([disabled="true"]):not([open]), toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
 	background-color: #FFC8BB55 !important;
