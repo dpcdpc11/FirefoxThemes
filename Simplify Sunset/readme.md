@@ -4,7 +4,7 @@
 
 **DESCRIPTION:** a minimal Firefox Theme for those who would like to properly enjoy my [Simplify 10 Sunset - Windows 10 Themes](https://dpcdpc11.gumroad.com/l/EkfdS)
 
-**WALLPAPER USED:** [Blissed](https://dpcdpc11.gumroad.com/l/rCUuT)
+**WALLPAPER USED:** [Exodus](https://dpcdpc11.gumroad.com/l/rCUuT)
 
 **INSTALLATION INSTRUCTIONS:**
 
